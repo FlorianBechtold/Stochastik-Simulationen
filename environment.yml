@@ -2,7 +2,7 @@
 # $ conda create --name <env> --file <this file>
 # platform: osx-arm64
 # created-by: conda 24.11.3
-@EXPLICIT
+#@EXPLICIT
 https://repo.anaconda.com/pkgs/main/osx-arm64/aws-c-common-0.8.5-h80987f9_0.conda
 https://repo.anaconda.com/pkgs/main/osx-arm64/blas-1.0-openblas.conda
 https://repo.anaconda.com/pkgs/main/osx-arm64/bzip2-1.0.8-h80987f9_6.conda
