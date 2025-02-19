@@ -1,3 +1,3 @@
 # Stochastik-Simulationen
 
-Run the notebooks on [![Binder](https://mybinder.org/badge_logo.svg)]([https://mybinder.org/v2/gh/sschlenkrich/InterestRateModelling_examples/HEAD](https://mybinder.org/v2/gh/FlorianBechtold/Stochastik-Simulationen/HEAD).
+Run the notebooks on [![Binder](https://mybinder.org/badge_logo.svg)]([https://mybinder.org/v2/gh/FlorianBechtold/Stochastik-Simulationen/HEAD]).
