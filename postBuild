@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Install JupyterLab
-pip install jupyterlab
+# Install JupyterLab via conda
+conda install -y jupyterlab
 
-# Install JupyterLab-compatible extensions
-pip install ipywidgets  # Install ipywidgets for widgets support
+# Install ipywidgets (also for JupyterLab compatibility)
+conda install -y ipywidgets
 
-# Install and configure JupyterLab widgets extension
-jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 --minimize=False
+# Install JupyterLab widgets extension
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
 
-# Ensure that ipywidgets is enabled for JupyterLab
+# Ensure that widgetsnbextension is enabled (for classic notebooks, if needed)
 jupyter nbextension enable --py widgetsnbextension
